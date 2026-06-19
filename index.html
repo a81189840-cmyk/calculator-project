@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div class="container">
         <div class="calculator">
-            <input type="text" placeholder="0" class="display">
-            <button>AC</button>
-            <button>DEL</button>
-            <button>%</button>
-            <button>/</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>*</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>+</button>
-            <button>0</button>
-            <button>00</button>
-            <button>.</button>
-            <button>=</button>
+            <input type="text" id="display" class="display" placeholder="0" readonly>
+            <button id="btnAC" class="btn operator" value="AC">AC</button>
+            <button id="btnDel" class="btn operator" value="DEL">DEL</button>
+            <button id="btnPercent" class="btn operator" value="%">%</button>
+            <button id="btnDivide" class="btn operator" value="/">/</button>
+            <button id="btn7" class="btn" value="7">7</button>
+            <button id="btn8" class="btn" value="8">8</button>
+            <button id="btn9" class="btn" value="9">9</button>
+            <button id="btnMultiply" class="btn operator" value="*">*</button>
+            <button id="btn4" class="btn" value="4">4</button>
+            <button id="btn5" class="btn" value="5">5</button>
+            <button id="btn6" class="btn" value="6">6</button>
+            <button id="btnMinus" class="btn operator" value="-">-</button>
+            <button id="btn1" class="btn" value="1">1</button>
+            <button id="btn2" class="btn" value="2">2</button>
+            <button id="btn3" class="btn" value="3">3</button>
+            <button id="btnPlus" class="btn operator" value="+">+</button>
+            <button id="btn0" class="btn" value="0">0</button>
+            <button id="btn00" class="btn" value="00">00</button>
+            <button id="btnDot" class="btn" value=".">.</button>
+            <button id="btnEquals" class="btn operator" value="=">=</button>
         </div>
     </div>
+    <script src="code.js"></script>
 </body>
-
 </html>
